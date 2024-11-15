@@ -13,11 +13,6 @@ app.get('/', (req, res) => {
   <center><h1>Bot 24H ON!</h1></center
   </body>`)
 });
-  
-  
-})
-
-client.login(process.env.token)
 
 client.on('ready', async () => {
   console.log(`${client.user.username} is ready!`);
